@@ -15,6 +15,18 @@ GET http://localhost:3000/position/Nurse%20Case%20Manager/salary
 
 RESPONSE {"avg_total_earnings":"84167.210000000000"}
 
+## Code to review
+Controller
+[earning_report_controller.rb](https://github.com/b-hobbs/earnings_report/blob/master/app/controllers/earning_report_controller.rb)
+[earning_report_controller_test.rb](https://github.com/b-hobbs/earnings_report/blob/master/test/controllers/earning_report_controller_test.rb)
+
+Basic wrapper to query for average salary
+[earning_report.rb](https://github.com/b-hobbs/earnings_report/blob/master/app/models/earning_report.rb)
+[earning_report_test.rb](https://github.com/b-hobbs/earnings_report/blob/master/test/models/earning_report_test.rb)
+
+Route
+[routes.rb](https://github.com/b-hobbs/earnings_report/blob/master/config/routes.rb)
+
 ## Tests Result
 Run options: --verbose --seed 30405
 
